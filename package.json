@@ -1,0 +1,13 @@
+{
+  "name": "ortho-practice-manager",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Orthodontic practice manager: PWA + Google Apps Script + Google Sheets",
+  "scripts": {
+    "test": "node --test tests/ledger.test.js tests/core.test.js tests/server.test.js",
+    "e2e": "node tests/e2e.js",
+    "build": "node tools/build.js",
+    "dev": "node dev/server.js 8787 --seed"
+  },
+  "license": "UNLICENSED"
+}
